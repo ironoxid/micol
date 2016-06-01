@@ -12,4 +12,13 @@
  *
  *= require_tree .
  *= require_self
+ *= require bootstrap_and_overrides
  */
+
+h3.preview-title {
+  padding-top:15px;
+}
+
+footer {
+  margin-top:35px;
+}

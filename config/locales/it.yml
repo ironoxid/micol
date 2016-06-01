@@ -1,0 +1,49 @@
+it:
+  titles:
+    preview: "Anteprima"
+    search: "Cerca..."
+    signed_in_as: "Autenticato come"
+    logout: "Esci"
+  deadlines:
+    index:
+      status: "Stato"
+  helpers:
+    actions: "Azioni"
+    links:
+      edit: "Modifica"
+      destroy: "Cancella"
+      confirm: "Sei sicuro?"
+      new_category: "Nuova categoria"
+      go: "Vai"
+  activerecord:
+    models:
+      deadline: 
+        one: "Scadenza" 
+        other: "Scadenze"
+      user:
+        one: "Utente"
+        other: "Utenti"
+      category:
+        one: "Categoria"
+        other: "Categorie"
+    attributes:
+      deadline:
+        name: "Denominazione"
+        category_id: "Categoria"
+        user_id: "Responsabile"
+        deadline_date: "Data di scadenza"
+        completed: "Completata"
+        references: "Referenze"
+        note: "Note"
+        created_at: "Creata il"
+        updated_at: "Ultima modifica il"
+      category:
+        name: "Nome"
+        color: "Colore"
+        forewarn_days: "Giorni di preavviso"
+        relevant_days: "Giorni di rilevanza"
+        note: "Note"
+        created_at: "Creata il"
+        updated_at: "Ultima modifica il"
+      user:
+        nickname: "Nome"

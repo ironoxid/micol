@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyText
+  color: MyString
+  forewarn_days: 1
+  relevant_days: 1
+  note: MyText
+
+two:
+  name: MyText
+  color: MyString
+  forewarn_days: 1
+  relevant_days: 1
+  note: MyText
