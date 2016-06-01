@@ -1,0 +1,45 @@
+'reader at https://texwriting.com/
+
+title Class Diagram
+header Scadenziario
+
+' layout
+' alternatively: top to bottom direction
+left to right direction
+
+class Deadline {
+#id: integer
+name: text
+category_id: integer
+user_id: integer
+deadline_date: datetime
+completed: boolean
+references: text
+note: text
+created_at: datetime
+updated_at: datetime
+}
+
+class Category {
+#id: integer
+name: text
+color: text
+forewarn_days: integer
+relevant_days: integer
+note: text
+created_at: datetime
+updated_at: datetime
+}
+
+class User {
+#id: integer
+name: text
+surname: text
+email: text
+password: text
+}
+
+Deadline --> Category
+Deadline --> User
+
+
